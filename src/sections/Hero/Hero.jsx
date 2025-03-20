@@ -39,7 +39,9 @@ function Hero() {
 					Rose <br />
 					O'Malley
 				</h1>
-				<h2>Full Stack Developer / Musician</h2>
+				<h2>
+					Full Stack Developer <br />/ Musician
+				</h2>
 				<span>
 					<a
 						href='https://github.com/rosieomusic'
@@ -60,7 +62,7 @@ function Hero() {
 						/>
 					</a>
 				</span>
-				<p>
+				<p className={styles.description}>
 					With a passion for developing modern React web apps for commercial
 					buisinesses.
 				</p>
