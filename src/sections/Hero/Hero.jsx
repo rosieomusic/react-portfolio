@@ -8,6 +8,7 @@ import linkedInLight from '../../assets/linkedin-light.svg';
 import linkedInDark from '../../assets/linkedin-dark.svg';
 import CV from '../../assets/Rose_OMalley_Resume.pdf';
 import { useTheme } from '../../common/ThemeContext';
+import { Link } from 'react-router-dom';
 
 function Hero() {
 	const { theme, toggleTheme } = useTheme();
@@ -39,9 +40,12 @@ function Hero() {
 					Rose <br />
 					O'Malley
 				</h1>
-				<h2>
-					Full Stack Developer <br />/ Musician
-				</h2>
+				<div>
+					<h2>Full Stack Developer</h2>
+					<Link to='/musician'>
+						<h2 className={styles.musician}>+ Musician +</h2>
+					</Link>
+				</div>
 				<span>
 					<a
 						href='https://github.com/rosieomusic'

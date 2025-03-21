@@ -67,7 +67,7 @@
 	flex-direction: column;
 	gap: 20px;
 
-	.musician:hover {
+	.dev:hover {
 		color: #c2f019;
 		cursor: pointer;
 	}
