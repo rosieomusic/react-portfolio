@@ -2,6 +2,8 @@
 	display: flex;
 	flex-direction: column;
 	text-align: center;
+	height: 100dvh;
+	min-height: 500px;
 
 	img {
 		max-width: 250px;
@@ -21,8 +23,14 @@
 	}
 	.projectsContainer {
 		display: flex;
-		flex-direction: column;
-		align-items: center;
+		flex-wrap: wrap;
+		flex-direction: row;
 		gap: 30px;
+		align-items: center;
+		justify-content: space-around;
+	}
+	p {
+		max-width: 26ch;
+		text-align: center;
 	}
 }

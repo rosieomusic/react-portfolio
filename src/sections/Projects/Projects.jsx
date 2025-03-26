@@ -37,7 +37,7 @@ function Projects() {
 					src={bratcalc}
 					link={'https://rosieomusic.github.io/brat-calculator/'}
 					h3='brat calculator'
-					p='Charli XCX themed calculator/sampler'
+					p='Charli XCX themed calculator'
 				/>
 				<ProjectCard
 					src={gaga}
