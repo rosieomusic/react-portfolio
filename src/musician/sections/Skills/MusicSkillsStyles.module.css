@@ -50,3 +50,14 @@ hr {
 	background-color: var(--text-color);
 	margin: 20px auto;
 }
+@media (width <= 500px) {
+	.container {
+		margin-bottom: 30px;
+		h1 {
+			margin-bottom: 30px;
+		}
+		p {
+			margin-bottom: 20px;
+		}
+	}
+}

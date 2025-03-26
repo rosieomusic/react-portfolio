@@ -74,6 +74,14 @@
 		cursor: pointer;
 	}
 }
+@media (width >= 400px) {
+	.container {
+		padding: 10px;
+	}
+	.info {
+		gap: 7px;
+	}
+}
 @media (width >=800px) {
 	.container {
 		flex-direction: row-reverse;

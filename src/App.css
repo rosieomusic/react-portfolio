@@ -66,6 +66,11 @@ p {
 a {
 	text-decoration: none;
 }
+@media (width <= 500px) {
+	p {
+		margin-bottom: 20px;
+	}
+}
 @media (width >=800px) {
 	#root {
 		gap: 100px;

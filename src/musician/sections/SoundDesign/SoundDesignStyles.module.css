@@ -37,9 +37,29 @@
 	}
 }
 
-.description {
+.blurb {
 	margin-top: 10px;
 	max-width: 24ch;
 	text-align: center;
 	justify-self: center;
+}
+@media (width <= 500px) {
+	.container {
+		h1 {
+			margin-bottom: 30px;
+		}
+	}
+	span {
+		a {
+			img {
+				width: 250px;
+			}
+		}
+	}
+	.blurb {
+		font-size: 12px;
+	}
+	h1.sectionTitle {
+		margin-bottom: 20px;
+	}
 }

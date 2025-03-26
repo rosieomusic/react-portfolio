@@ -19,7 +19,7 @@ function SoundDesign() {
 						src={water}
 						alt='water'
 					/>
-					<p className={styles.description}>
+					<p className={styles.blurb}>
 						"Becoming Water" Continuum Dance Project 2023
 					</p>
 				</a>
@@ -32,7 +32,7 @@ function SoundDesign() {
 						src={immigration}
 						alt='immigration'
 					/>
-					<p className={styles.description}>
+					<p className={styles.blurb}>
 						"Crossing: Stories of Immigration" Continuum Dance Project 2021
 					</p>
 				</a>
