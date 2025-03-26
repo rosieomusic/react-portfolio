@@ -66,6 +66,7 @@ input[type='submit']:active {
 	}
 }
 @media (width >=1400px) {
+	input:not([type='submit']),
 	textarea {
 		width: 800px;
 		font-size: 20px;
