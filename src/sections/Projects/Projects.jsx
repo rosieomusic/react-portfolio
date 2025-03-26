@@ -5,7 +5,7 @@ import ProjectCard from '../../common/ProjectCard';
 import pawswipe from '../../assets/pawswipe.png';
 import gigtracker from '../../assets/gigtracker.png';
 import bratcalc from '../../assets/bratcalc.png';
-import gaga from '../../assets/gaga.png';
+import gaga from '../../assets/abracadabra.png';
 
 function Projects() {
 	return (
@@ -41,7 +41,7 @@ function Projects() {
 				/>
 				<ProjectCard
 					src={gaga}
-					link={'https://rosieomusic.github.io/brat-calculator/'}
+					link={'https://rosieomusic.github.io/tic-tac-toe-react/'}
 					h3='ABRACADABRA TOE'
 					p='Lady Gaga themed Tic-Tac-Toe'
 				/>

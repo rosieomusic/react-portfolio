@@ -67,8 +67,9 @@ function Hero() {
 					</a>
 				</span>
 				<p className={styles.description}>
-					With a passion for developing modern React web apps for commercial
-					buisinesses.
+					Full-Stack Software Engineer transitioning from a career in music,
+					blending creativity, precision and problem-solving to craft impactful
+					technology.
 				</p>
 				<a
 					href={CV}

@@ -2,7 +2,6 @@ import styles from './MusicHeroStyles.module.css';
 import heroImg from '../../../assets/circular_avatar_5.png';
 import sun from '../../../assets/sun.svg';
 import moon from '../../../assets/moon.svg';
-import CV from '../../../assets/Rose_OMalley_Resume.pdf';
 import { useTheme } from '../../../common/ThemeContext';
 import { Link } from 'react-router-dom';
 
@@ -40,13 +39,9 @@ function MusicHero() {
 					</Link>
 					<h2> + Musician +</h2>
 				</div>
-				<p className={styles.description}>Guitarist, Bassist, Educator</p>
-				<a
-					href={CV}
-					download
-				>
-					<button className='hover'>Resume</button>
-				</a>
+				<p className={styles.description}>
+					Guitarist, Bassist, Educator, Production Enthusiast, Human Jukebox
+				</p>
 			</div>
 		</section>
 	);

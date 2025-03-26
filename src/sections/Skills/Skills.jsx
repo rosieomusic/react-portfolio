@@ -22,7 +22,34 @@ function Skills() {
 				/>
 				<SkillList
 					src={checkMarkIcon}
+					skill='Spring Boot'
+				/>
+				<SkillList
+					src={checkMarkIcon}
+					skill='Unit Testing'
+				/>
+				<SkillList
+					src={checkMarkIcon}
+					skill='PostgreSQL'
+				/>
+				<SkillList
+					src={checkMarkIcon}
+					skill='REST APIs'
+				/>
+			</div>
+			<hr />
+			<div className={styles.skillList}>
+				<SkillList
+					src={checkMarkIcon}
 					skill='Javascript'
+				/>
+				<SkillList
+					src={checkMarkIcon}
+					skill='React'
+				/>
+				<SkillList
+					src={checkMarkIcon}
+					skill='Vue'
 				/>
 				<SkillList
 					src={checkMarkIcon}
@@ -34,30 +61,34 @@ function Skills() {
 				/>
 				<SkillList
 					src={checkMarkIcon}
-					skill='PostgreSQL'
+					skill='Node'
 				/>
 			</div>
 			<hr />
 			<div className={styles.skillList}>
 				<SkillList
 					src={checkMarkIcon}
-					skill='React'
+					skill='InteliJ'
 				/>
 				<SkillList
 					src={checkMarkIcon}
-					skill='Vue'
+					skill='Visual Studio Code'
+				/>
+				<SkillList
+					src={checkMarkIcon}
+					skill='Postman'
+				/>
+				<SkillList
+					src={checkMarkIcon}
+					skill='pgAdmin'
+				/>
+				<SkillList
+					src={checkMarkIcon}
+					skill='DevTools'
 				/>
 				<SkillList
 					src={checkMarkIcon}
 					skill='Git'
-				/>
-				<SkillList
-					src={checkMarkIcon}
-					skill='Docker'
-				/>
-				<SkillList
-					src={checkMarkIcon}
-					skill='Node'
 				/>
 			</div>
 		</section>

@@ -1,11 +1,11 @@
 import React from 'react';
-import styles from './SkillsStyles.module.css';
-import darkMark from '../../assets/checkmark-dark.svg';
-import lightMark from '../../assets/checkmark-light.svg';
-import SkillList from '../../common/SkillList.jsx';
-import { useTheme } from '../../common/ThemeContext.jsx';
+import styles from './MusicSkillsStyles.module.css';
+import darkMark from '../../../assets/checkmark-dark.svg';
+import lightMark from '../../../assets/checkmark-light.svg';
+import SkillList from '../../../common/SkillList.jsx';
+import { useTheme } from '../../../common/ThemeContext.jsx';
 
-function Skills() {
+function MusicSkills() {
 	const { theme } = useTheme();
 	const checkMarkIcon = theme === 'light' ? lightMark : darkMark;
 
@@ -18,50 +18,54 @@ function Skills() {
 			<div className={styles.skillList}>
 				<SkillList
 					src={checkMarkIcon}
-					skill='Java'
+					skill='ProTools'
 				/>
 				<SkillList
 					src={checkMarkIcon}
-					skill='Javascript'
+					skill='Ableton'
 				/>
 				<SkillList
 					src={checkMarkIcon}
-					skill='HTML'
+					skill='Logic'
 				/>
 				<SkillList
 					src={checkMarkIcon}
-					skill='CSS'
+					skill='Reason'
 				/>
 				<SkillList
 					src={checkMarkIcon}
-					skill='PostgreSQL'
+					skill='Finale'
+				/>
+				<SkillList
+					src={checkMarkIcon}
+					skill='Sibelius'
 				/>
 			</div>
 			<hr />
 			<div className={styles.skillList}>
 				<SkillList
 					src={checkMarkIcon}
-					skill='React'
+					skill='Sound Design'
 				/>
 				<SkillList
 					src={checkMarkIcon}
-					skill='Vue'
+					skill='Audio Engineering'
 				/>
 				<SkillList
 					src={checkMarkIcon}
-					skill='Git'
+					skill='Mixing'
 				/>
 				<SkillList
 					src={checkMarkIcon}
-					skill='Docker'
+					skill='Mastering'
 				/>
 				<SkillList
 					src={checkMarkIcon}
-					skill='Node'
+					skill='Session Work'
 				/>
 			</div>
 		</section>
 	);
 }
 
-export default Skills;
+export default MusicSkills;
