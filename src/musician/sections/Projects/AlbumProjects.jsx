@@ -41,7 +41,7 @@ function AlbumProjects() {
 				<ProjectCard
 					src={insane}
 					link={'https://earthiscancelled.bandcamp.com/album/band-in-b-c'}
-					h3='Insane Earth (fka the cavemen)'
+					h3='Insane Earth (fka The Cavemen)'
 					p='Bass'
 				/>
 

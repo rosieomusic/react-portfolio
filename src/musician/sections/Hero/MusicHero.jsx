@@ -1,5 +1,5 @@
 import styles from './MusicHeroStyles.module.css';
-import heroImg from '../../../assets/circular_avatar_5.png';
+import heroImg from '../../../assets/touchedupheadshot.png';
 import sun from '../../../assets/sun.svg';
 import moon from '../../../assets/moon.svg';
 import { useTheme } from '../../../common/ThemeContext';

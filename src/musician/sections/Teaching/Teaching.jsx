@@ -12,7 +12,6 @@ function Teaching() {
 		>
 			<h1 className='sectionTitle'>Teaching</h1>
 			<p>Former Instructor at:</p>
-			<br />
 
 			<span>
 				<a
