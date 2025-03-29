@@ -67,8 +67,8 @@ function Hero() {
 					</a>
 				</span>
 				<p className={styles.description}>
-					Full-Stack Software Engineer transitioning from a career in music,
-					blending creativity, precision and problem-solving to craft impactful
+					Full-Stack Software Engineer transitioning from a career in music.
+					Blending creativity, precision and problem-solving to craft impactful
 					technology.
 				</p>
 				<a
