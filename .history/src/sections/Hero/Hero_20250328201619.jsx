@@ -6,7 +6,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedInLight from '../../assets/linkedin-light.svg';
 import linkedInDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/Rose_OMalley_Resume2025.pdf';
+import CV from '../../assets/Rose_OMalley_Resume.pdf';
 import { useTheme } from '../../common/ThemeContext';
 import { Link } from 'react-router-dom';
 
