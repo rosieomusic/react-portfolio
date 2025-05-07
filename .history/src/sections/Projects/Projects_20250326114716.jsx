@@ -6,7 +6,6 @@ import pawswipe from '../../assets/pawswipe.png';
 import gigtracker from '../../assets/gigtracker.png';
 import bratcalc from '../../assets/bratcalc.png';
 import gaga from '../../assets/abracadabra.png';
-import ascii from '../../assets/ascii.png';
 
 function Projects() {
 	return (
@@ -24,7 +23,7 @@ function Projects() {
 				/>
 				<ProjectCard
 					src={pawswipe}
-					link={'https://rosieomusic.github.io/pawswipe/'}
+					link={'https://github.com/rosieomusic/pawswipe'}
 					h3='Paw Swipe'
 					p='Pet Adoption Site'
 				/>
@@ -45,12 +44,6 @@ function Projects() {
 					link={'https://rosieomusic.github.io/tic-tac-toe-react/'}
 					h3='ABRACADABRA TOE'
 					p='Lady Gaga themed Tic-Tac-Toe'
-				/>
-				<ProjectCard
-					src={ascii}
-					link={'https://rosieomusic.github.io/ascii-art/'}
-					h3='ASCII'
-					p='ASCII art generator'
 				/>
 			</div>
 		</section>

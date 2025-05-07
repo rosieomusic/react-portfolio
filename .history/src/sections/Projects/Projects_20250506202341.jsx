@@ -24,7 +24,7 @@ function Projects() {
 				/>
 				<ProjectCard
 					src={pawswipe}
-					link={'https://rosieomusic.github.io/pawswipe/'}
+					link={'rosieomusic.github.io/pawswipe/'}
 					h3='Paw Swipe'
 					p='Pet Adoption Site'
 				/>
