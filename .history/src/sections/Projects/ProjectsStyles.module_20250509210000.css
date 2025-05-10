@@ -4,8 +4,6 @@
 	text-align: center;
 	height: auto;
 	min-height: 500px;
-	display: inline-block;
-	transform-origin: center;
 
 	img {
 		max-width: 250px;

@@ -39,10 +39,9 @@
 		height: 50px;
 		font-size: 20px;
 		font-weight: bold;
-		display: inline-block;
 		transform-origin: center;
 		box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-		transition: border-color 0.25s;
+		transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
 	}
 	button:hover {
 		transform: scale(1.05);

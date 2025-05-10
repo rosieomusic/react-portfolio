@@ -7,7 +7,6 @@ import gigtracker from '../../assets/gigtracker.png';
 import bratcalc from '../../assets/bratcalc.png';
 import gaga from '../../assets/abracadabra.png';
 import ascii from '../../assets/ascii.png';
-import spotify from '../../assets/spotify.png';
 
 function Projects() {
 	return (
@@ -30,10 +29,10 @@ function Projects() {
 					p='Pet Adoption Site'
 				/>
 				<ProjectCard
-					src={spotify}
-					link={'https://rosieomusic.github.io/spotify-react/'}
-					h3='Joke/Spotify'
-					p='Joke/Spotify API'
+					src={pawswipe}
+					link={'https://rosieomusic.github.io/pawswipe/'}
+					h3='Paw Swipe'
+					p='Pet Adoption Site'
 				/>
 				<ProjectCard
 					src={ascii}

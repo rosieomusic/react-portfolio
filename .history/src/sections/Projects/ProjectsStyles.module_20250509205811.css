@@ -4,8 +4,6 @@
 	text-align: center;
 	height: auto;
 	min-height: 500px;
-	display: inline-block;
-	transform-origin: center;
 
 	img {
 		max-width: 250px;
@@ -14,17 +12,12 @@
 
 		border-radius: 20px;
 	}
-	img:hover {
-		transform: scale(1.05);
-		box-shadow: 0 2x 2px rgba(0, 0, 0, 0.25);
-	}
 	a {
 		width: fit-content;
 		text-decoration: none;
 		color: #222;
 		transition: border-color 0.25s;
 		transform-origin: center;
-		transform: scale(1);
 		display: inline-block;
 	}
 	a:hover {
