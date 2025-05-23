@@ -7,7 +7,7 @@ import gigtracker from '../../assets/gigtracker.png';
 import bratcalc from '../../assets/bratcalc.png';
 import gaga from '../../assets/abracadabra.png';
 import ascii from '../../assets/ascii.png';
-import spotify from '../../assets/spotify2.png';
+import spotify from '../../assets/spotify.png';
 
 function Projects() {
 	return (
@@ -32,7 +32,7 @@ function Projects() {
 				<ProjectCard
 					src={spotify}
 					link={'https://rosieomusic.github.io/spotify-react/'}
-					h3='2000s styled site'
+					h3='Joke/Spotify'
 					p='Front end Styling'
 				/>
 				<ProjectCard

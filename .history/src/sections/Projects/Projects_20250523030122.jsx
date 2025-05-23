@@ -32,7 +32,7 @@ function Projects() {
 				<ProjectCard
 					src={spotify}
 					link={'https://rosieomusic.github.io/spotify-react/'}
-					h3='2000s styled site'
+					h3='Joke/Spotify'
 					p='Front end Styling'
 				/>
 				<ProjectCard
