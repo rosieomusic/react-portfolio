@@ -1,6 +1,6 @@
 import styles from './HeroStyles.module.css';
 import heroImg from '../../assets/touchedupheadshotsun.png';
-
+import heroHover from '../../assets/ASCII_Rose.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import githubLight from '../../assets/github-light.svg';
@@ -29,7 +29,6 @@ function Hero() {
 					src={heroImg}
 					alt='Profile picture of Rose OMalley'
 				/>
-
 				<img
 					className={styles.colorMode}
 					src={themeIcon}

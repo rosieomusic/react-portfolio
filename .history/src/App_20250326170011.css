@@ -39,7 +39,7 @@ p {
 h2,
 h3,
 p {
-	font-family: 'Jersey 10', sans-serif;
+	font-family: 'Roboto-Mono', monospace;
 }
 h1,
 h2 {
@@ -50,7 +50,7 @@ h3 {
 	font-size: 20px;
 }
 h1 {
-	font-family: 'Jersey 10', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	font-size: 32px;
 }
 p {

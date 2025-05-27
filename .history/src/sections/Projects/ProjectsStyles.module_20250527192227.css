@@ -11,12 +11,11 @@
 		max-width: 250px;
 		max-height: fit-content;
 		align-self: center;
-		border-radius: 10px;
-		box-shadow: 1px 0px 15px 1px rgba(0, 0, 0, 1);
+		border-radius: 20px;
 	}
 	img:hover {
 		transform: scale(1.05);
-		box-shadow: 1px 0px 15px 1px rgba(0, 0, 0, 1);
+		box-shadow: 0 2x 2px rgba(0, 0, 0, 0.25);
 	}
 	a {
 		width: fit-content;
@@ -38,11 +37,11 @@
 		gap: 30px;
 		align-items: center;
 		justify-content: space-around;
+		box-shadow: 0 2x 2px rgba(0, 0, 0, 0.25);
 	}
 	p {
 		max-width: 26ch;
 		text-align: center;
-		justify-self: center;
 	}
 }
 @media (width >=800px) {

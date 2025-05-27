@@ -1,12 +1,13 @@
 import styles from './HeroStyles.module.css';
 import heroImg from '../../assets/touchedupheadshotsun.png';
+
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedInLight from '../../assets/linkedin-light.svg';
 import linkedInDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/Rose_OMalley_Resume.pdf';
+import CV from '../../assets/Rose_OMalley_Resume2025.pdf';
 import { useTheme } from '../../common/ThemeContext';
 import { Link } from 'react-router-dom';
 
@@ -28,6 +29,7 @@ function Hero() {
 					src={heroImg}
 					alt='Profile picture of Rose OMalley'
 				/>
+
 				<img
 					className={styles.colorMode}
 					src={themeIcon}
