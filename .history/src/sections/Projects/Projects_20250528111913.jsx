@@ -33,7 +33,7 @@ function Projects() {
 					src={spotify}
 					link={'https://rosieomusic.github.io/spotify-react/'}
 					h3='Mood Mixer'
-					p='Joke and Spotify API Demo'
+					p='API + CSS practice'
 				/>
 				<ProjectCard
 					src={ascii}

@@ -32,8 +32,8 @@ function Projects() {
 				<ProjectCard
 					src={spotify}
 					link={'https://rosieomusic.github.io/spotify-react/'}
-					h3='Mood Mixer'
-					p='Joke and Spotify API Demo'
+					h3='Joke/Spotify APIs'
+					p='API + CSS practice'
 				/>
 				<ProjectCard
 					src={ascii}
