@@ -1,6 +1,6 @@
 import styles from './HeroStyles.module.css';
 import heroImgDark from '../../assets/headshot_ascii_pink.png';
-import heroImgLight from '../../assets/touchedupheadshotsun.png';
+import heroImgLight from '../../assets/touchedupheadshot.png';
 
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';

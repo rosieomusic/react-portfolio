@@ -1,6 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroImgDark from '../../assets/headshot_ascii_pink.png';
-import heroImgLight from '../../assets/touchedupheadshotsun.png';
+import heroImg from '../../assets/headshot_ascii_pink.png';
 
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
@@ -18,7 +17,6 @@ function Hero() {
 	const themeIcon = theme === 'light' ? sun : moon;
 	const githubIcon = theme === 'light' ? githubLight : githubDark;
 	const linkedInIcon = theme === 'light' ? linkedInLight : linkedInDark;
-	const heroImg = theme === 'light' ? heroImgLight : heroImgDark;
 
 	return (
 		<section
