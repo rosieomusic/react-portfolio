@@ -43,7 +43,7 @@ function Hero() {
 					O'Malley
 				</h1>
 				<div>
-					<h2>Full-Stack Developer</h2>
+					<h2>Full Stack Developer</h2>
 					<Link to='/musician'>
 						<h2 className={styles.musician}>+ Musician +</h2>
 					</Link>
