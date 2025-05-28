@@ -71,7 +71,8 @@ function Hero() {
 				<p className={styles.description}>
 					Software Engineer with a background in music, bringing creativity,
 					precision, and a collaborative spirit to software development.
-					Experienced in building full-stack web applications.
+					Experienced in building full-stack applications with Java, Spring
+					Boot, PostgreSQL, JavaScript, Vue, and React.
 				</p>
 				<a
 					href={CV}
