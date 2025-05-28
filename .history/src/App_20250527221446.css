@@ -54,7 +54,7 @@ h3 {
 	font-family: 'Alagard';
 }
 h1 {
-	font-family: 'Alagard';
+	font-family: 'Jersey 10', sans-serif;
 	font-size: 32px;
 	color: var(--h1-text-color);
 }
@@ -71,6 +71,9 @@ p {
 }
 a {
 	text-decoration: none;
+}
+button {
+	font-family: 'Alagard';
 }
 
 @media (width <= 500px) {
