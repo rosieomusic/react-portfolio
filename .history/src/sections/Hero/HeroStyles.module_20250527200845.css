@@ -3,7 +3,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-
+	gap: 10px;
 	text-align: center;
 	height: 100dvh;
 	min-height: 500px;
@@ -19,7 +19,7 @@
 	span {
 		display: flex;
 		flex-direction: row;
-		gap: 5px;
+		gap: 25px;
 		justify-content: center;
 
 		a {

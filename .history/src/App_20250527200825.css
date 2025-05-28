@@ -30,7 +30,7 @@ body {
 	flex-direction: column;
 	gap: 60px;
 }
-h1,
+
 h2,
 h3,
 p {
@@ -68,6 +68,9 @@ a {
 	text-decoration: none;
 }
 @media (width <= 500px) {
+	#root {
+		gap: 50px;
+	}
 	p {
 		margin-bottom: 20px;
 	}
