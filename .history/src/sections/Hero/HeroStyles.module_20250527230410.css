@@ -105,7 +105,7 @@
 		gap: 7px;
 	}
 	.description {
-		max-width: 250px;
+		max-width: 350px;
 	}
 }
 @media (width >=800px) {

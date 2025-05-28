@@ -80,7 +80,6 @@
 
 .description {
 	width: 100%;
-	max-width: 350px;
 
 	margin: 0 auto;
 	display: block;
@@ -105,7 +104,7 @@
 		gap: 7px;
 	}
 	.description {
-		max-width: 250px;
+		max-width: 60%;
 	}
 }
 @media (width >=800px) {
