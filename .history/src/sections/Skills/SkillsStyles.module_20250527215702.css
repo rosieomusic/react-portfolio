@@ -48,8 +48,3 @@ hr {
 	background-color: var(--text-color);
 	margin: 20px auto;
 }
-input[type='submit'] {
-	font-family: 'Pixelify Sans';
-	text-align: center;
-	font-size: 30px;
-}
