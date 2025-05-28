@@ -56,8 +56,8 @@ h1 {
 }
 p {
 	font-size: 16px;
-	font-weight: 100;
-	font-family: 'Pixelify Sans';
+	font-weight: 300;
+	font-family: 'Pixelfy';
 }
 .sectionTitle {
 	margin-bottom: 30px;
@@ -68,7 +68,8 @@ p {
 a {
 	text-decoration: none;
 }
-
+footer {
+}
 @media (width <= 500px) {
 	p {
 		margin-bottom: 20px;
