@@ -69,11 +69,10 @@
 .colorMode:hover {
 	cursor: pointer;
 }
-
 .description {
 	max-width: 24ch;
 	font-family: 'monospace' sans-serif;
-	margin-bottom: 15px;
+	font-size: 1em;
 
 	text-align: center;
 	justify-self: center;

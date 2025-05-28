@@ -6,7 +6,6 @@
 	--text-color: #222;
 	--form-text-color: #555;
 	--footer-text-color: #888;
-	--h1-text-color: #c1121f;
 }
 
 [data-theme='dark'] {
@@ -17,7 +16,6 @@
 	--text-color: #fff;
 	--form-text-color: #fff;
 	--footer-text-color: #bbb;
-	--h1-text-color: #ffafcc;
 }
 body {
 	background-color: var(--background-color);
@@ -51,8 +49,7 @@ h3 {
 h1 {
 	font-family: 'Jersey 10', sans-serif;
 	font-size: 32px;
-	color: var(--h1-text-color);
-	text-shadow: 2px 2px black;
+	color: #ffafcc;
 }
 p {
 	font-size: 16px;

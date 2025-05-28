@@ -8,6 +8,10 @@
 	height: 100dvh;
 	min-height: 500px;
 
+	#rose {
+		color: #ffafcc;
+	}
+
 	.hero {
 		max-width: 200px;
 		border-radius: 100px;
@@ -69,11 +73,10 @@
 .colorMode:hover {
 	cursor: pointer;
 }
-
 .description {
 	max-width: 24ch;
 	font-family: 'monospace' sans-serif;
-	margin-bottom: 15px;
+	font-size: 1.5em;
 
 	text-align: center;
 	justify-self: center;
