@@ -77,15 +77,14 @@
 	}
 }
 @media (width <=700px) {
+	.container {
+		margin: 40px;
+	}
 	.projectsContainer {
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: space-evenly;
 		padding: 0 30px;
 		margin: 40px;
-
-		#repo-hover {
-			margin-bottom: 20px;
-		}
 	}
 }

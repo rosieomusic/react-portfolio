@@ -83,9 +83,5 @@
 		justify-content: space-evenly;
 		padding: 0 30px;
 		margin: 40px;
-
-		#repo-hover {
-			margin-bottom: 20px;
-		}
 	}
 }
