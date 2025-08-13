@@ -71,21 +71,21 @@ function Skills() {
 						/>
 						<SkillList
 							src={checkMarkIcon}
-							skill='RESTful API'
+							skill='RESTful API design & integration'
 						/>
 						<SkillList
 							src={checkMarkIcon}
-							skill='Responsive design'
+							skill='Responsive, mobile-first design'
 						/>
 						<SkillList
 							src={checkMarkIcon}
-							skill='Figma wireframing / prototyping'
+							skill='Figma wireframing/prototyping'
 						/>
 					</div>
 				</div>
 
 				<div className={styles.category}>
-					<p>Database Programming:</p>
+					<p>Database Programming</p>
 					<div className={styles.skillList}>
 						<SkillList
 							src={checkMarkIcon}
@@ -93,64 +93,52 @@ function Skills() {
 						/>
 						<SkillList
 							src={checkMarkIcon}
-							skill='E/R diagram design'
+							skill='ER diagram design'
 						/>
 						<SkillList
 							src={checkMarkIcon}
-							skill='JDBC'
+							skill='Vue'
 						/>
 						<SkillList
 							src={checkMarkIcon}
-							skill='pgAdmin'
+							skill='HTML'
 						/>
 						<SkillList
 							src={checkMarkIcon}
-							skill='Supabase'
+							skill='CSS'
 						/>
 						<SkillList
 							src={checkMarkIcon}
-							skill='KoyebDB'
+							skill='Node'
 						/>
 					</div>
 				</div>
 
-				<div className={styles.category}>
-					<p>Development Tools & Techniques:</p>
-					<div className={styles.skillList}>
-						<SkillList
-							src={checkMarkIcon}
-							skill='Git/Github'
-						/>
-						<SkillList
-							src={checkMarkIcon}
-							skill='Agile/Scrum'
-						/>
-						<SkillList
-							src={checkMarkIcon}
-							skill='VS code'
-						/>
-						<br /> <br />
-						<SkillList
-							src={checkMarkIcon}
-							skill='PyCharm'
-						/>
-						<SkillList
-							src={checkMarkIcon}
-							skill='IntelliJ IDEA'
-						/>
-						<SkillList
-							src={checkMarkIcon}
-							skill='DevTools'
-						/>
-						<SkillList
-							src={checkMarkIcon}
-							skill='Unit testing (JUnit)'
-						/>
-						<SkillList
-							src={checkMarkIcon}
-							skill='Postman API testing'
-						/>
-					</div>
+				<div className={styles.skillList}>
+					<SkillList
+						src={checkMarkIcon}
+						skill='InteliJ'
+					/>
+					<SkillList
+						src={checkMarkIcon}
+						skill='Visual Studio Code'
+					/>
+					<SkillList
+						src={checkMarkIcon}
+						skill='Postman'
+					/>
+					<SkillList
+						src={checkMarkIcon}
+						skill='pgAdmin'
+					/>
+					<SkillList
+						src={checkMarkIcon}
+						skill='DevTools'
+					/>
+					<SkillList
+						src={checkMarkIcon}
+						skill='Git'
+					/>
 				</div>
 			</div>
 		</section>

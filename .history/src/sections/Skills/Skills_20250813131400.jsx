@@ -129,7 +129,7 @@ function Skills() {
 							src={checkMarkIcon}
 							skill='VS code'
 						/>
-						<br /> <br />
+						<br /> <br /> <br />
 						<SkillList
 							src={checkMarkIcon}
 							skill='PyCharm'

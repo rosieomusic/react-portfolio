@@ -22,8 +22,9 @@
 }
 .category {
 	p {
-		font-size: 1em;
+		font-size: 1.1em;
 		margin-bottom: 10px;
+		justify-content: center;
 	}
 }
 .skillsContainer {
@@ -31,7 +32,7 @@
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-evenly;
-	gap: 5px;
+	gap: 10px;
 }
 .skillList {
 	display: flex;
@@ -46,10 +47,6 @@
 
 	padding: 20px;
 	height: 350px;
-
-	p {
-		font-size: 1.1em;
-	}
 }
 hr {
 	width: 100px;

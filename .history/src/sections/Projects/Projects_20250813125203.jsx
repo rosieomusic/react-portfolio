@@ -15,7 +15,7 @@ function Projects() {
 			id='projects'
 			className={styles.container}
 		>
-			<h1 className={styles.title}>Projects</h1>
+			<h1 className='sectionTitle'>Projects</h1>
 
 			<a href='https://github.com/rosieomusic'>
 				<button

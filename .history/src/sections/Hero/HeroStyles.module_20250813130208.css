@@ -38,7 +38,7 @@
 		align-self: center;
 	}
 	a:hover {
-		transform: scale(1.25);
+		transform: scale(1.05);
 		box-shadow: 0 2x 2px rgba(0, 0, 0, 0.25);
 	}
 	button {

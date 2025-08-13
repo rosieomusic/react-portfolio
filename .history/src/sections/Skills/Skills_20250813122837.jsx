@@ -71,15 +71,15 @@ function Skills() {
 						/>
 						<SkillList
 							src={checkMarkIcon}
-							skill='RESTful API'
+							skill='RESTful API design & integration'
 						/>
 						<SkillList
 							src={checkMarkIcon}
-							skill='Responsive design'
+							skill='Responsive, mobile-first design'
 						/>
 						<SkillList
 							src={checkMarkIcon}
-							skill='Figma wireframing / prototyping'
+							skill='Figma wireframing/prototyping'
 						/>
 					</div>
 				</div>
@@ -115,7 +115,7 @@ function Skills() {
 				</div>
 
 				<div className={styles.category}>
-					<p>Development Tools & Techniques:</p>
+					<p>Development Tools & Techniques</p>
 					<div className={styles.skillList}>
 						<SkillList
 							src={checkMarkIcon}
@@ -127,20 +127,15 @@ function Skills() {
 						/>
 						<SkillList
 							src={checkMarkIcon}
+							skill='Postman API testing'
+						/>
+						<SkillList
+							src={checkMarkIcon}
 							skill='VS code'
 						/>
-						<br /> <br />
 						<SkillList
 							src={checkMarkIcon}
-							skill='PyCharm'
-						/>
-						<SkillList
-							src={checkMarkIcon}
-							skill='IntelliJ IDEA'
-						/>
-						<SkillList
-							src={checkMarkIcon}
-							skill='DevTools'
+							skill='Debugging with DevTools'
 						/>
 						<SkillList
 							src={checkMarkIcon}
@@ -148,7 +143,11 @@ function Skills() {
 						/>
 						<SkillList
 							src={checkMarkIcon}
-							skill='Postman API testing'
+							skill='IntelliJ IDEA'
+						/>
+						<SkillList
+							src={checkMarkIcon}
+							skill='pyCharm'
 						/>
 					</div>
 				</div>

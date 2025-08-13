@@ -15,16 +15,13 @@ function Projects() {
 			id='projects'
 			className={styles.container}
 		>
-			<h1 className={styles.title}>Projects</h1>
-
-			<a href='https://github.com/rosieomusic'>
-				<button
-					id='repo'
-					className='hover'
-				>
+			<h1 className='sectionTitle'>Projects</h1>
+			<div className='button-div'>
+				<button className='hover'>
 					Github Repository
+					<a href='https://github.com/rosieomusic'></a>
 				</button>
-			</a>
+			</div>
 
 			<div className={styles.projectsContainer}>
 				<ProjectCard

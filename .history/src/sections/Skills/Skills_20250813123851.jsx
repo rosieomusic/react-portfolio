@@ -125,14 +125,10 @@ function Skills() {
 							src={checkMarkIcon}
 							skill='Agile/Scrum'
 						/>
+
 						<SkillList
 							src={checkMarkIcon}
 							skill='VS code'
-						/>
-						<br /> <br />
-						<SkillList
-							src={checkMarkIcon}
-							skill='PyCharm'
 						/>
 						<SkillList
 							src={checkMarkIcon}
@@ -140,11 +136,16 @@ function Skills() {
 						/>
 						<SkillList
 							src={checkMarkIcon}
-							skill='DevTools'
+							skill='PyCharm'
 						/>
+
 						<SkillList
 							src={checkMarkIcon}
 							skill='Unit testing (JUnit)'
+						/>
+						<SkillList
+							src={checkMarkIcon}
+							skill='Debugging with DevTools'
 						/>
 						<SkillList
 							src={checkMarkIcon}

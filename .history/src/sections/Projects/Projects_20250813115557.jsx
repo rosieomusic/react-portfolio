@@ -15,17 +15,7 @@ function Projects() {
 			id='projects'
 			className={styles.container}
 		>
-			<h1 className={styles.title}>Projects</h1>
-
-			<a href='https://github.com/rosieomusic'>
-				<button
-					id='repo'
-					className='hover'
-				>
-					Github Repository
-				</button>
-			</a>
-
+			<h1 className='sectionTitle'>Projects</h1>
 			<div className={styles.projectsContainer}>
 				<ProjectCard
 					src={h2f}
@@ -53,9 +43,9 @@ function Projects() {
 				/>
 				<ProjectCard
 					src={drum}
-					link={'https://github.com/rosieomusic/drum_machine/'}
-					h3='Drum Machine'
-					p='Desktop only Python drum machine'
+					link={'https://github.com/rosieomusic/drum-machine'}
+					h3='Gig Tracker App'
+					p='Musician Gig Tracker CLI'
 				/>
 				<ProjectCard
 					src={bratcalc}
