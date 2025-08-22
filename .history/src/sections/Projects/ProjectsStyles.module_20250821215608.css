@@ -34,13 +34,12 @@
 	.projectsContainer {
 		margin-top: 20px;
 		display: flex;
-		flex-wrap: nowrap;
-		flex-direction: row;
+		flex-wrap: wrap;
+		flex-direction: column;
 		gap: 30px;
 		align-items: center;
 		justify-content: space-around;
 		text-align: center;
-		max-width: 1080px;
 	}
 
 	p {
