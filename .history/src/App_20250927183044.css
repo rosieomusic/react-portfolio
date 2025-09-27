@@ -95,13 +95,7 @@ a {
 
 	.swiper-button-next {
 		right: 0;
-		transform: translatex(-360px);
-		font-size: 1.5rem;
-	}
-	.swiper-button-prev {
-		left: 0;
-		transform: translatex(360px);
-		font-size: 1.5rem;
+		transform: translate(-150px);
 	}
 }
 @media (width >=800px) {

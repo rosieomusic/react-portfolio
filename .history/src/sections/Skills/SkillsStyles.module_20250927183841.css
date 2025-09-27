@@ -65,7 +65,7 @@ input[type='submit'] {
 }
 
 @media (width <=700px) {
-	.skillsContainer {
-		flex-direction: column;
+	.container {
+		flex-direction: row;
 	}
 }

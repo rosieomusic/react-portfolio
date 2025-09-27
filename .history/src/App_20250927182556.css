@@ -93,15 +93,12 @@ a {
 		margin-bottom: 20px;
 	}
 
-	.swiper-button-next {
-		right: 0;
-		transform: translatex(-360px);
-		font-size: 1.5rem;
-	}
 	.swiper-button-prev {
-		left: 0;
-		transform: translatex(360px);
-		font-size: 1.5rem;
+		left: 5px;
+	}
+
+	.swiper-button-next {
+		right: 5px;
 	}
 }
 @media (width >=800px) {

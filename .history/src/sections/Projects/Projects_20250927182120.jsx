@@ -95,7 +95,6 @@ function Projects() {
 					</SwiperSlide>
 				</Swiper>
 			</div>
-			<p>Swipe for more projects</p>
 			<a href='https://github.com/rosieomusic'>
 				<button
 					id='repo'

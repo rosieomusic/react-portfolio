@@ -35,7 +35,7 @@
 }
 .skillList {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
@@ -65,7 +65,4 @@ input[type='submit'] {
 }
 
 @media (width <=700px) {
-	.skillsContainer {
-		flex-direction: column;
-	}
 }
