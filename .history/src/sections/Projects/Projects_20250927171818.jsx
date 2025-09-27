@@ -3,9 +3,10 @@ import styles from './ProjectsStyles.module.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import '/src/custom-swiper.css';
+import 'swiper/css/pagination';
+import ' ./app.css';
 
-import { Navigation } from 'swiper/modules';
+import { Navigation, Pagination } from 'swiper/modules';
 
 import h2f from '../../assets/h2f.jpeg';
 import ProjectCard from '../../common/ProjectCard';
@@ -24,9 +25,17 @@ function Projects() {
 		>
 			<h1 className={styles.title}>Projects</h1>
 
+			<a href='https://github.com/rosieomusic'>
+				<button
+					id='repo'
+					className='hover'
+				>
+					Github Repository
+				</button>
+			</a>
 			<div className={styles.projectsContainer}>
 				<Swiper
-					modules={[Navigation]}
+					modules={[Navigation, Pagination]}
 					navigation
 					pagination={{ clickable: true }}
 					spaceBetween={20}
@@ -96,14 +105,6 @@ function Projects() {
 					</SwiperSlide>
 				</Swiper>
 			</div>
-			<a href='https://github.com/rosieomusic'>
-				<button
-					id='repo'
-					className='hover'
-				>
-					Github Repository
-				</button>
-			</a>
 		</section>
 	);
 }

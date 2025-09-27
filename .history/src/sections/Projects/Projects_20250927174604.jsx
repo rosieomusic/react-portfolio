@@ -3,7 +3,6 @@ import styles from './ProjectsStyles.module.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import '/src/custom-swiper.css';
 
 import { Navigation } from 'swiper/modules';
 
@@ -24,6 +23,14 @@ function Projects() {
 		>
 			<h1 className={styles.title}>Projects</h1>
 
+			<a href='https://github.com/rosieomusic'>
+				<button
+					id='repo'
+					className='hover'
+				>
+					Github Repository
+				</button>
+			</a>
 			<div className={styles.projectsContainer}>
 				<Swiper
 					modules={[Navigation]}
@@ -96,14 +103,6 @@ function Projects() {
 					</SwiperSlide>
 				</Swiper>
 			</div>
-			<a href='https://github.com/rosieomusic'>
-				<button
-					id='repo'
-					className='hover'
-				>
-					Github Repository
-				</button>
-			</a>
 		</section>
 	);
 }

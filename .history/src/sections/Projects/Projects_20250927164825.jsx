@@ -1,0 +1,110 @@
+import React from 'react';
+import styles from './ProjectsStyles.module.css';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+import { Navigation, Pagination } from 'swiper/modules';
+
+import h2f from '../../assets/h2f.jpeg';
+import ProjectCard from '../../common/ProjectCard';
+import pawswipe from '../../assets/pawswipe.png';
+import drum from '../../assets/drum.png';
+import bratcalc from '../../assets/bratcalc.png';
+import gaga from '../../assets/abracadabra.png';
+import ascii from '../../assets/ascii.png';
+import spotify from '../../assets/spotify2.png';
+
+function Projects() {
+	return (
+		<section
+			id='projects'
+			className={styles.container}
+		>
+			<h1 className={styles.title}>Projects</h1>
+
+			<a href='https://github.com/rosieomusic'>
+				<button
+					id='repo'
+					className='hover'
+				>
+					Github Repository
+				</button>
+			</a>
+
+			<Swiper
+				modules={[Navigation, Pagination]}
+				navigation
+				pagination={{ clickable: true }}
+				spaceBetween={20}
+				slidesPerView={1}
+				breakpoints={{
+					768: { slidesPerView: 2 }, // 2 cards on tablets
+					1024: { slidesPerView: 3 }, // 3 cards on desktops
+				}}
+			>
+				<SwiperSlide>
+					<ProjectCard
+						src={h2f}
+						link={'https://healinghandsfund.org/'}
+						h3='Healing Hands Fund'
+						p='Nonprofit Website'
+					/>
+				</SwiperSlide>
+				<SwiperSlide>
+					<ProjectCard
+						src={pawswipe}
+						link={'https://rosieomusic.github.io/pawswipe/'}
+						h3='Paw Swipe'
+						p='Pet Adoption Site'
+					/>
+				</SwiperSlide>
+				<SwiperSlide>
+					<ProjectCard
+						src={spotify}
+						link={'https://rosieomusic.github.io/spotify-react/'}
+						h3='Mood Mixer'
+						p='Joke and Spotify API Demo'
+					/>
+				</SwiperSlide>
+				<SwiperSlide>
+					<ProjectCard
+						src={ascii}
+						link={'https://rosieomusic.github.io/ascii-art/'}
+						h3='ASCII'
+						p='ASCII art generator'
+					/>
+				</SwiperSlide>
+				<SwiperSlide>
+					<ProjectCard
+						src={drum}
+						link={'https://github.com/rosieomusic/drum_machine/'}
+						h3='Drum Machine'
+						p='Desktop only Python drum machine'
+					/>
+				</SwiperSlide>
+
+				<SwiperSlide>
+					<ProjectCard
+						src={bratcalc}
+						link={'https://rosieomusic.github.io/brat-calculator/'}
+						h3='brat calculator'
+						p='Charli XCX themed calculator'
+					/>
+				</SwiperSlide>
+
+				<SwiperSlide>
+					<ProjectCard
+						src={gaga}
+						link={'https://rosieomusic.github.io/tic-tac-toe-react/'}
+						h3='ABRACADABRA TOE'
+						p='Lady Gaga themed Tic-Tac-Toe'
+					/>
+				</SwiperSlide>
+			</Swiper>
+		</section>
+	);
+}
+
+export default Projects;

@@ -35,11 +35,11 @@ body {
 }
 .swiper-button-prev,
 .swiper-button-next {
-	top: 37% !important;
-	color: var(--swiper-theme-color);
-	width: 50px;
+	top: 20% !important; /* override Swiper's default 50% */
+	color: var(--swiper-theme-color); /* theme color */
+	width: 50px; /* optional bigger clickable area */
 	height: 50px;
-	font-size: 2rem;
+	font-size: 2rem; /* bigger arrows */
 }
 
 @font-face {

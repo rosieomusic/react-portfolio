@@ -95,15 +95,16 @@ function Projects() {
 						/>
 					</SwiperSlide>
 				</Swiper>
+
+				<a href='https://github.com/rosieomusic'>
+					<button
+						id='repo'
+						className='hover'
+					>
+						Github Repository
+					</button>
+				</a>
 			</div>
-			<a href='https://github.com/rosieomusic'>
-				<button
-					id='repo'
-					className='hover'
-				>
-					Github Repository
-				</button>
-			</a>
 		</section>
 	);
 }

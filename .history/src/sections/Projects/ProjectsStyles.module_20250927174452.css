@@ -10,7 +10,7 @@
 		max-height: 250px;
 		align-self: center;
 		border-radius: 10px;
-		/* box-shadow: 1px 0px 5px 5px rgb(105, 101, 101); */
+		box-shadow: 1px 0px 5px 5px rgb(105, 101, 101);
 	}
 
 	a {
@@ -24,8 +24,7 @@
 	}
 
 	.projectsContainer {
-		margin-top: 100px;
-		margin-bottom: 50px;
+		margin-top: 30px;
 		display: flex;
 		flex-wrap: nowrap;
 		flex-direction: row;
@@ -74,7 +73,7 @@
 		box-shadow: 0 2x 2px rgba(0, 0, 0, 0.25);
 	}
 }
-.swiper {
+.projectsContainer .swiper {
 	min-height: 300px;
 	overflow: visible;
 	padding-bottom: 30px;

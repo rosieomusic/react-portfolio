@@ -24,8 +24,7 @@
 	}
 
 	.projectsContainer {
-		margin-top: 100px;
-		margin-bottom: 50px;
+		margin-top: 30px;
 		display: flex;
 		flex-wrap: nowrap;
 		flex-direction: row;
@@ -81,6 +80,28 @@
 }
 .swiper-pagination-bullet {
 	color: var(--text-color);
+}
+/* Scoped to your Projects Swiper container */
+.projectsContainer .swiper-button-prev,
+.projectsContainer .swiper-button-next {
+	top: 25%; /* raise arrows higher; default is 50% */
+	color: var(--swiper-theme-color); /* use your theme color */
+	width: 50px; /* optional bigger clickable area */
+	height: 50px;
+	font-size: 2rem; /* make arrow bigger */
+}
+
+/* Optional: override default arrows with custom font/symbol */
+.projectsContainer .swiper-button-prev::after {
+	content: '<'; /* custom symbol */
+	font-family: 'Alagard', sans-serif; /* your desired font */
+	font-size: 2rem;
+}
+
+.projectsContainer .swiper-button-next::after {
+	content: '>'; /* custom symbol */
+	font-family: 'Alagard', sans-serif;
+	font-size: 2rem;
 }
 
 @media (width <=700px) {

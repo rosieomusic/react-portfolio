@@ -10,7 +10,7 @@
 		max-height: 250px;
 		align-self: center;
 		border-radius: 10px;
-		/* box-shadow: 1px 0px 5px 5px rgb(105, 101, 101); */
+		box-shadow: 1px 0px 5px 5px rgb(105, 101, 101);
 	}
 
 	a {
@@ -24,8 +24,7 @@
 	}
 
 	.projectsContainer {
-		margin-top: 100px;
-		margin-bottom: 50px;
+		margin-top: 30px;
 		display: flex;
 		flex-wrap: nowrap;
 		flex-direction: row;
@@ -79,6 +78,31 @@
 	overflow: visible;
 	padding-bottom: 30px;
 }
+/* Scope it to your Projects Swiper */
+.projectsContainer .swiper-button-prev,
+.projectsContainer .swiper-button-next {
+	top: 25%; /* move arrows higher */
+	color: var(--swiper-theme-color); /* match your theme */
+	width: 50px; /* optional bigger click area */
+	height: 50px;
+	font-family: 'Alagard', sans-serif; /* change arrow font */
+	font-size: 2rem; /* bigger arrow symbol */
+	font-weight: bold;
+}
+
+/* Optional: override default arrows with custom text/icons */
+.projectsContainer .swiper-button-prev::after {
+	content: '<'; /* replace with any symbol */
+	font-family: 'Alagard', sans-serif;
+	font-size: 2rem;
+}
+
+.projectsContainer .swiper-button-next::after {
+	content: '>'; /* replace with any symbol */
+	font-family: 'Alagard', sans-serif;
+	font-size: 2rem;
+}
+
 .swiper-pagination-bullet {
 	color: var(--text-color);
 }

@@ -42,6 +42,18 @@ body {
 	font-size: 2rem;
 }
 
+.swiper-button-prev::after {
+	content: '<';
+	font-family: 'Alagard', sans-serif;
+	font-size: 2rem;
+}
+
+.swiper-button-next::after {
+	content: '>';
+	font-family: 'Alagard', sans-serif;
+	font-size: 2rem;
+}
+
 @font-face {
 	font-family: 'alagard';
 	src: url(../src/fonts/alagard.ttf);

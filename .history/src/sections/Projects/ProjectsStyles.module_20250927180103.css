@@ -24,8 +24,7 @@
 	}
 
 	.projectsContainer {
-		margin-top: 100px;
-		margin-bottom: 50px;
+		margin-top: 30px;
 		display: flex;
 		flex-wrap: nowrap;
 		flex-direction: row;
@@ -81,6 +80,10 @@
 }
 .swiper-pagination-bullet {
 	color: var(--text-color);
+}
+.swiper-button-prev,
+.swiper-button-next {
+	top: 25%;
 }
 
 @media (width <=700px) {
